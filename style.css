@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;600;700&display=swap');
+
+
+
+.btn{
+  display: inline-block;
+  margin-top: 1rem;
+  background:palevioletred; 
+  color:white;
+  padding:5px 5px;
+  font-size: 1.7rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.btn:hover{
+  background:palegreen;
+}
+.header-2{
+  background:orangered;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding:2rem 9%;
+  box-shadow: 5px 5px rgba(0.2, 0,  0.3);
+  position: relative;
+}
+
+.header-2 .navbar a{
+  padding:.5rem 1.5rem;
+  font-size: 2rem;
+  border-radius: .5rem;
+  color:var(--black);
+}
+.header-2:hover{
+  background:lightgrey;
+}
+
+.header-2 .navbar a:hover{
+  color:pink;
+}
+#menu-bar{
+  font-size: 3rem;
+  border-radius: .5rem;
+  border:.1rem solid lightcyan;
+  padding:.8rem 1.5rem;
+  color:greenyellow;
+  cursor: pointer;
+  display: none;
+}
+
+
+
+
